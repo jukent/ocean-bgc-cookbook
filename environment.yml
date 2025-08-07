@@ -10,23 +10,18 @@ dependencies:
   - h5netcdf
   - ipykernel
   - ipywidgets
-  - jupyter-book
-  - jupyterlab>=3
+  - jupyterlab
+  - jupyterlab-myst
   - jupyter_server
   - matplotlib
   - metpy
+  - mystmd
   - nc-time-axis
-  - netcdf4
   - numpy
   - pandas
   - pip
   - pop-tools
-  - python
   - rioxarray
-  - sphinx-pythia-theme
+  - s3fs
   - xarray
   - zarr
-  - pip
-  - pip:
-    - s3fs
-  - mystmd
