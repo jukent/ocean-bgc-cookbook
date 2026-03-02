@@ -8,6 +8,17 @@ project:
       url: https://projectpythia.org/
   github: https://github.com/projectpythia/ocean-bgc-cookbook
   copyright: '2024'
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - 'https://doi.org/**'
+        - 'https://zenodo.org/**'
+        - 'http://orca.science.oregonstate.edu/**'
+    - rule: doi-link-valid
+      severity: ignore
+      keys:
+        - 'https://zenodo.org/**'   # also suppress the DOI validation error
   toc:
     - file: README.md
     - title: Preamble

@@ -25,3 +25,6 @@ dependencies:
   - s3fs
   - xarray
   - zarr
+  - pip
+  - pip:
+      - setuptools==81.0.0
